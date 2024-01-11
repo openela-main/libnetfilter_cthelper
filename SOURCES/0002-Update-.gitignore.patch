@@ -1,0 +1,40 @@
+From 490757aa64308c49611ae50e75470d9fd87ec6d2 Mon Sep 17 00:00:00 2001
+From: Jan Engelhardt <jengelh@inai.de>
+Date: Mon, 8 Oct 2012 14:55:39 +0200
+Subject: [PATCH] Update .gitignore
+
+Signed-off-by: Jan Engelhardt <jengelh@inai.de>
+(cherry picked from commit c9753bf8e2bcc6510ca88133eaa79da1d9616550)
+Signed-off-by: Phil Sutter <psutter@redhat.com>
+---
+ .gitignore | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+ create mode 100644 .gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000000000..a83525b35be2b
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,18 @@
++.deps/
++.libs/
++Makefile
++Makefile.in
++*.o
++*.la
++*.lo
++
++/aclocal.m4
++/autom4te.cache/
++/build-aux/
++/config.*
++/configure
++/libtool
++
++/doxygen.cfg
++/*.pc
++/stamp-h1
+-- 
+2.23.0
+
